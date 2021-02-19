@@ -1,0 +1,10 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: WatsonNLU
+  buildpack: java_buildpack
+  path: ./target/nlu-visual-1.0.jar
+  memory: 256M
+  domain: not-used.net
+  host: not-used
